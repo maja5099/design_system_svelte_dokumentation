@@ -18,6 +18,16 @@
     </div>
     <pre>
         <code>
+            CODE IN APP.SVELTE:
+            &lt;script&gt;
+                import ArticleBadges from "./ArticleBadges.svelte";
+            &lt;/script&gt;
+            <br>
+            &lt;main&gt;
+                &lt;ArticleBadges /&gt;
+            &lt;/main&gt;
+            <br>
+            CODE IN ARTICLEBADGES.SVELTE:
             &lt;script&gt;
                 import BadgeNeutral from "./BadgeNeutral.svelte";
                 import BadgePrimary from "./BadgePrimary.svelte";
@@ -25,7 +35,7 @@
                 import BadgeAccent from "./BadgeAccent.svelte";
                 import BadgeGhost from "./BadgeGhost.svelte";
             &lt;/script&gt;
-            <br>
+    
             &lt;div&gt;
                 &lt;BadgeNeutral&gt; Neutral &lt;/BadgeNeutral&gt;
                 &lt;BadgePrimary&gt; Primary &lt;/BadgePrimary&gt;
@@ -33,6 +43,14 @@
                 &lt;BadgeAccent&gt; Accent &lt;/BadgeAccent&gt;
                 &lt;BadgeGhost&gt; Ghost &lt;/BadgeGhost&gt;
             &lt;/div&gt;
+            <br>
+            CODE IN INDIVIDUAL BADGE.SVELTE
+            &lt;div&gt;
+                &lt;p&gt;
+                    &lt;slot /&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+            
         </code>
     </pre>
 </article>

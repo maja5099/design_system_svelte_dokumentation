@@ -20,6 +20,16 @@
     </div>
     <pre>
         <code>
+            CODE IN APP.SVELTE:
+            &lt;script&gt;
+                import ArticleButtons from "./ArticleButtons.svelte";
+            &lt;/script&gt;
+
+            &lt;main&gt;
+                &lt;ArticleButtons /&gt;
+            &lt;/main&gt;
+            <br>
+            CODE IN ARTICLEBUTTONS.SVELTE:
             &lt;script&gt;
                 import ButtonNeutral from "./ButtonNeutral.svelte";
                 import ButtonPrimary from "./ButtonPrimary.svelte";
@@ -28,7 +38,7 @@
                 import ButtonGhost from "./ButtonGhost.svelte";
                 import ButtonLink from "./ButtonLink.svelte";
             &lt;/script&gt;
-            <br>
+        
             &lt;div&gt;
                 &lt;ButtonNeutral&gt; Neutral &lt;/ButtonNeutral&gt;
                 &lt;ButtonPrimary&gt; Primary &lt;/ButtonPrimary&gt;
@@ -37,6 +47,14 @@
                 &lt;ButtonGhost&gt; Ghost &lt;/ButtonGhost&gt;
                 &lt;ButtonLink&gt; Link &lt;/ButtonLink&gt;
             &lt;/div&gt;
+            <br>
+            CODE IN INDIVIDUAL BUTTON.SVELTE
+            &lt;div&gt;
+                &lt;button&gt;
+                    &lt;slot /&gt;
+                &lt;/button&gt;
+            &lt;/div&gt;
+            
         </code>
     </pre>
 </article>

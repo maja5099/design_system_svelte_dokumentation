@@ -44,7 +44,7 @@
                     &lt;div class="h2AndBadge"&gt;
                         &lt;h2&gt;Shoes!&lt;/h2&gt;
                         &lt;BadgeSecondary&gt;New&lt;/BadgeSecondary&gt;
-                        &lt;/div>
+                    &lt;/div>
                     &lt;p&gt;If a dog chews shoes whose shoes does he choose?&lt;/p&gt;
                     &lt;div class="ghostBadges"&gt;
                         &lt;BadgeGhost&gt;Fashion&lt;/BadgeGhost&gt;

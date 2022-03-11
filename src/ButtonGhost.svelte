@@ -1,0 +1,26 @@
+<div>
+    <button>
+        <slot />
+    </button>
+</div>
+
+<style>
+    button {
+        font-weight: 600;
+        text-transform: uppercase;
+	    border-radius: 10px;
+	    padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+	    outline: none;
+        width: fit-content;
+        border: none;
+        background-color: #3e445000;
+        color: #3E4450;
+        border: 1px solid #3E4450;
+    }
+    button:hover {
+        background-color: #f7f7f7;
+    }
+</style>

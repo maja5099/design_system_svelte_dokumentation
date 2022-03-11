@@ -1,0 +1,75 @@
+html, body {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+body {
+	background-color: #ececec;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+	color: #3E4450;
+	text-transform: uppercase;
+	font-size: 3.5em;
+	font-weight: 700;
+}
+
+h2 {
+	color: #3E4450;
+}
+
+p {
+	color: #3E4450;
+}
+
+h1, h2, button {
+	text-align: center;
+}
+
+a {
+	color: #3E4450;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #3E4450;
+}
+
+label {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button:hover {
+	cursor: pointer;
+}
